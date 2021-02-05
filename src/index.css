@@ -5,6 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+#root {
+  min-height: 100%;
+}
+
+/* 회원 인증 페이지 배경 화면 전체 영역에 채우기*/
+html {
+  height: 100%;
+}
+
+/* link color and underline del*/
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* All element box-sizing value set-up 'border-box' */
+* {
+  box-sizing: inherit;
 }
 
 code {
